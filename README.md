@@ -1,6 +1,12 @@
-# daily-work
-Daily progress,notes and learning
-## 11.01.2026
-- GitHub Daily Setup gemacht
-- # 13. 01 2026
-- übung JavaScript
+Tag 1 – Variablen
+
+Variablen benutzt man, um Werte zu speichern.
+
+let name = "Max";
+let age = 25;
+
+let city = "Hamburg";
+let country = "Deutschland";
+
+let isStudent = true;
+let score = 100;
