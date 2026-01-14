@@ -16,3 +16,15 @@ let country = "Deutschland";
 
 let isStudent = true;
 let score = 100;
+
+
+// Datentypen beschreiben, welche Art von Wert gespeichert wird
+
+let username = "Julia";   // String
+let age = 30;             // Number
+
+let city = "Berlin";      // String
+let price = 19.99;        // Number
+
+let isOnline = true;      // Boolean
+let hasAccess = false;    // Boolean
