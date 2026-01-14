@@ -1,7 +1,13 @@
-Tag 1 – Variablen
+## daily-work
 
-Variablen benutzt man, um Werte zu speichern.
+Ich übe hier regelmäßig JavaScript.
+Dieses Repository nutze ich, um die Grundlagen Schritt für Schritt zu lernen.
 
+---
+
+### Tag 1 – Variablen
+
+```js
 let name = "Max";
 let age = 25;
 
