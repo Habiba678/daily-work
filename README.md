@@ -49,3 +49,58 @@ let numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
+
+
+
+
+
+Klassen in JavaScript
+
+JavaScript-Klassen dienen der Strukturierung von Code.
+Sie ermöglichen die Definition von Objekten sowie deren Eigenschaften und Methoden.
+
+⸻
+
+Beispiel
+
+class User {
+constructor(name) {
+this.name = name;
+}
+
+greet() {
+console.log(Hallo, ich bin ${this.name});
+}
+}
+
+const user1 = new User(“Janna”);
+user1.greet();
+
+⸻
+
+Erklärung
+	•	class User
+Definiert eine Klasse mit dem Namen „User“.
+	•	constructor(name)
+Wird beim Erstellen eines Objekts automatisch ausgeführt.
+	•	this.name = name
+Weist dem Objekt eine Eigenschaft zu.
+	•	greet()
+Definiert eine Methode innerhalb der Klasse.
+	•	new User(“Janna”)
+Erzeugt eine Instanz der Klasse.
+
+⸻
+
+Wichtige Begriffe
+	•	Klasse → Bauplan für Objekte
+	•	Objekt → Instanz einer Klasse
+	•	Methode → Funktion innerhalb einer Klasse
+	•	Eigenschaft → Daten eines Objekts
+	•	constructor → Initialisierungsfunktion
+
+⸻
+
+Kurz gesagt
+
+JavaScript-Klassen ermöglichen eine strukturierte und wiederverwendbare Organisation von Code.
